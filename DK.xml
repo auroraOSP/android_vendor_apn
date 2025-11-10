@@ -5,67 +5,766 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="TDC" mcc="238" mnc="01" apn="internet" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="TDC MMS" mcc="238" mnc="01" apn="MMS" proxy="" port="" mmsproxy="inetproxy.tdc.dk" mmsport="8080" mmsc="http://mmsc.tdc.dk:8002" user="" password="" authtype="3" type="mms" />
-  <apn carrier="TDC Internet" mcc="238" mnc="01" apn="internet" proxy="62.135.173.214" authtype="1" mvno_match_data="2380101xxxxxxxx" mvno_type="imsi" type="default,supl" />
-  <apn carrier="TDC MMS" mcc="238" mnc="01" apn="mms" mmsc="http://mmsc.tdc.dk:8002" mmsproxy="194.182.251.15" mmsport="8080" authtype="1" mvno_match_data="2380101xxxxxxxx" mvno_type="imsi" type="mms" />
-  <apn carrier="TDC SE" mcc="238" mnc="01" apn="internet.se" proxy="" port="" user="" password="" mmsc="" />
-  <apn carrier="TDC NO" mcc="238" mnc="01" apn="internet.no" proxy="" port="" user="" password="" mmsc="" />
-  <apn carrier="coop mobil MMS" mcc="238" mnc="01" apn="mms" mmsc="http://192.168.241.114:8002" mmsproxy="194.182.251.15" mmsport="8080" type="mms" />
-  <apn carrier="DLG Tele" mcc="238" mnc="01" apn="websp" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="DLG Tele MMS" mcc="238" mnc="01" apn="mmssp" proxy="" port="" mmsproxy="193.209.134.131" mmsport="8080" mmsc="http://mms.telia.dk" user="" password="" authtype="3" type="mms" />
-  <apn carrier="Fullrate" mcc="238" mnc="01" apn="internet" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="Fullrate MMS" mcc="238" mnc="01" apn="mms" proxy="" port="" mmsproxy="194.182.251.15" mmsport="8080" mmsc="http://mmsc.tdc.dk:8002" user="" password="" authtype="3" type="mms" />
-  <apn carrier="Lycamobile" mcc="238" mnc="01" apn="data.lycamobile.dk" user="lmdk" password="plus" type="default,supl" />
-  <apn carrier="Telmore" mcc="238" mnc="01" apn="internet" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="Telmore MMS" mcc="238" mnc="01" apn="mms" proxy="" port="" mmsproxy="194.182.251.15" mmsport="8080" mmsc="http://192.168.241.114:8002" user="" password="" type="mms" />
-  <apn carrier="Telmore WAP" mcc="238" mnc="01" apn="wap" proxy="194.182.251.15" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Telmore MMS" mcc="238" mnc="01" apn="telenor" proxy="" port="" user="" password="" mmsc="http://192.168.241.114:8002" mmsproxy="194.182.251.15" mmsport="8080" type="mms" />
-  <apn carrier="Telenor Internet" mcc="238" mnc="02" apn="internet" user="" password="" type="default,supl" />
-  <apn carrier="Telenor MMS" mcc="238" mnc="02" apn="telenor" proxy="" port="" mmsproxy="212.88.64.8" mmsport="8080" mmsc="http://mms.telenor.dk" user="" password="" type="mms" />
-  <apn carrier="Onfone" mcc="238" mnc="02" apn="Internet" type="default,supl" />
-  <apn carrier="Onfone MMS" mcc="238" mnc="02" apn="telenor" proxy="" port="" mmsproxy="212.88.64.8" mmsport="8080" mmsc="http://mms.telenor.dk" user="" password="" type="mms" />
-  <apn carrier="DLG Internet" mcc="238" mnc="02" apn="websp" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="DLG MMS" mcc="238" mnc="02" apn="mmssp" proxy="" port="" user="" password="" mmsc="http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" type="mms" />
-  <apn carrier="CBB GPRS" mcc="238" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="CBB WAP" mcc="238" mnc="02" apn="internet" proxy="212.88.64.8" port="8080" user="sonofon" password="" mmsc="" type="default,supl" />
-  <apn carrier="CBB MMS" mcc="238" mnc="02" apn="sonofon" proxy="" port="" user="" password="" mmsc="http://mms.telenor.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms" />
-  <apn carrier="Tele2 GRPS" mcc="238" mnc="02" apn="internet.tele2.dk" proxy="130.244.196.90" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Tele2 MMS" mcc="238" mnc="02" apn="internet.tele2.dk" proxy="" port="" user="" password="" mmsc="http://mmsc.tele2.dk/" mmsproxy="193.12.40.54" mmsport="8080" type="mms" />
-  <apn carrier="BiBoB Internet" mcc="238" mnc="02" apn="internet.bibob.dk" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="BiBoB MMS" mcc="238" mnc="02" apn="mms.bibob.dk" proxy="" port="" user="" password="" mmsc="http://mms.sonofon.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms" />
-  <apn carrier="BiBoB WAP" mcc="238" mnc="02" apn="internet.bibob.dk" proxy="212.88.64.8" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Lebara Internet" mcc="238" mnc="02" apn="internet.lebara.dk" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Lebara MMS" mcc="238" mnc="02" apn="mms.lebara.dk" proxy="" port="" user="" password="" mmsc="http://mms.sonofon.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms" />
-  <apn carrier="3" mcc="238" mnc="06" apn="data.tre.dk" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="3MMS" mcc="238" mnc="06" apn="data.tre.dk" proxy="" port="" mmsproxy="172.016.001.025" mmsport="8799" mmsc="http://mms" user="" password="" authtype="3" type="mms" />
-  <apn carrier="3 DK" mcc="238" mnc="06" apn="data.tre.dk" mmsc="http://mms.3.dk" mmsproxy="mmsproxy.3.dk" mmsport="8799" type="default,supl,mms" />
-  <apn carrier="Oister" mcc="238" mnc="06" apn="data.dk" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Oister MMS" mcc="238" mnc="06" apn="data.dk" proxy="" port="" user="" password="" mmsc="http://mms.oister.dk" mmsproxy="mmsproxy.oister.dk" mmsport="8799" type="mms" />
-  <apn carrier="Telmore WAP" mcc="238" mnc="10" apn="wap" proxy="194.182.251.15" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Telmore MMS" mcc="238" mnc="10" apn="mms" proxy="" port="" user="" password="" mmsc="http://192.168.241.114:8002" mmsproxy="194.182.251.15" mmsport="8080" type="mms" />
-  <apn carrier="M1 Internet GPRS" mcc="238" mnc="10" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="M1 MMS GPRS" mcc="238" mnc="10" apn="mms" proxy="" port="" user="" password="" mmsc="http://192.168.241.114:8002" mmsproxy="194.182.251.15" mmsport="8080" type="mms" />
-  <apn carrier="M1 WAP GPRS" mcc="238" mnc="10" apn="wap" proxy="194.182.251.15" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Lycamobile DK" mcc="238" mnc="12" apn="data.lycamobile.dk" user="lmdk" password="plus" type="default,supl" />
-  <apn carrier="Call me Internet" mcc="238" mnc="20" apn="websp" user="" password="" type="default,supl" />
-  <apn carrier="CallMe MMS" mcc="238" mnc="20" apn="mmssp" proxy="" port="" mmsproxy="193.209.134.131" mmsport="80" mmsc="http://mms.telia.dk" user="" password="" type="mms" />
-  <apn carrier="Call me Internet" mcc="238" mnc="20" apn="websp" authtype="2" mvno_match_data="Call me" mvno_type="spn" type="default,supl" />
-  <apn carrier="Call me MMS" mcc="238" mnc="20" apn="mmssp" mmsc="http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" authtype="2" mvno_match_data="Call me" mvno_type="spn" type="mms" />
-  <apn carrier="Telia DK" mcc="238" mnc="20" apn="www.internet.mtelia.dk" mvno_match_data="2382010x" mvno_type="imsi" type="default,supl" />
-  <apn carrier="Telia DK MMS" mcc="238" mnc="20" apn="www.mms.mtelia.dk" mmsc="http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" mvno_match_data="2382010x" mvno_type="imsi" type="mms" />
-  <apn carrier="DLG Tele" mcc="238" mnc="20" apn="websp" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="DLG Tele MMS" mcc="238" mnc="20" apn="mmssp" proxy="" port="" mmsproxy="193.209.134.131" mmsport="8080" mmsc="http://mms.telia.dk" user="" password="" authtype="3" type="mms" />
-  <apn carrier="Waoo Mobil" mcc="238" mnc="20" apn="websp" user="" password="" type="default,supl" />
-  <apn carrier="Waoo Mobil MMS" mcc="238" mnc="20" apn="mmssp" proxy="" port="" mmsproxy="193.209.134.131" mmsport="8080" mmsc="http://mms.telia.dk" user="" password="" type="mms" />
-  <apn carrier="Siminn Internet" mcc="238" mnc="20" apn="websp" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Siminn WAP" mcc="238" mnc="20" apn="websp" proxy="62.44.158.29" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Siminn MMS" mcc="238" mnc="20" apn="mmssp" proxy="" port="" user="" password="" mmsc="http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" type="mms" />
-  <apn carrier="Telia SuifPort" mcc="238" mnc="30" apn="www.internet.mtelia.dk" user="" password="" type="default,supl" />
-  <apn carrier="Telia MMS" mcc="238" mnc="30" apn="www.mms.mtelia.dk" proxy="" port="" mmsproxy="193.209.134.131" mmsport="80" mmsc="http://mms.telia.dk" user="" password="" type="mms" />
-  <apn carrier="Siminn Internet" mcc="238" mnc="30" apn="websp" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Siminn WAP" mcc="238" mnc="30" apn="websp" proxy="62.44.158.29" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Siminn MMS" mcc="238" mnc="30" apn="mmssp" proxy="" port="" user="" password="" mmsc="http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" type="mms" />
-  <apn carrier="Telenor Internet" mcc="238" mnc="77" apn="Internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Telenor MMS" mcc="238" mnc="77" apn="telenor" proxy="" port="" user="" password="" mmsc="http://mms.telenor.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms" />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="DLG Tele"
+        apn="websp"
+        authtype="3"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="DLG Tele MMS"
+        apn="mmssp"
+        authtype="3"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Fullrate"
+        apn="internet"
+        authtype="3"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Fullrate MMS"
+        apn="mms"
+        authtype="3"
+        mmsc="http://mmsc.tdc.dk:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Lycamobile"
+        apn="data.lycamobile.dk"
+        password="plus"
+        type="default,supl"
+        user="lmdk"
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="TDC"
+        apn="internet"
+        authtype="3"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="TDC Internet"
+        apn="internet"
+        authtype="1"
+        mvno_match_data="2380101xxxxxxxx"
+        mvno_type="imsi"
+        proxy="62.135.173.214"
+        type="default,supl"
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="TDC MMS"
+        apn="MMS"
+        authtype="3"
+        mmsc="http://mmsc.tdc.dk:8002"
+        mmsport="8080"
+        mmsproxy="inetproxy.tdc.dk"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="TDC MMS"
+        apn="mms"
+        authtype="1"
+        mmsc="http://mmsc.tdc.dk:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        mvno_match_data="2380101xxxxxxxx"
+        mvno_type="imsi"
+        type="mms"
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="TDC NO"
+        apn="internet.no"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="TDC SE"
+        apn="internet.se"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Telmore"
+        apn="internet"
+        authtype="3"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Telmore MMS"
+        apn="mms"
+        mmsc="http://192.168.241.114:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Telmore MMS"
+        apn="telenor"
+        mmsc="http://192.168.241.114:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="Telmore WAP"
+        apn="wap"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="194.182.251.15"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="01"
+        carrier="coop mobil MMS"
+        apn="mms"
+        mmsc="http://192.168.241.114:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        type="mms"
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="BiBoB Internet"
+        apn="internet.bibob.dk"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="BiBoB MMS"
+        apn="mms.bibob.dk"
+        mmsc="http://mms.sonofon.dk"
+        mmsport="8080"
+        mmsproxy="212.88.64.8"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="BiBoB WAP"
+        apn="internet.bibob.dk"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="212.88.64.8"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="CBB GPRS"
+        apn="internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="CBB MMS"
+        apn="sonofon"
+        mmsc="http://mms.telenor.dk"
+        mmsport="8080"
+        mmsproxy="212.88.64.8"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="CBB WAP"
+        apn="internet"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="212.88.64.8"
+        type="default,supl"
+        user="sonofon"
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="DLG Internet"
+        apn="websp"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="DLG MMS"
+        apn="mmssp"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Lebara Internet"
+        apn="internet.lebara.dk"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Lebara MMS"
+        apn="mms.lebara.dk"
+        mmsc="http://mms.sonofon.dk"
+        mmsport="8080"
+        mmsproxy="212.88.64.8"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Onfone"
+        apn="Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Onfone MMS"
+        apn="telenor"
+        mmsc="http://mms.telenor.dk"
+        mmsport="8080"
+        mmsproxy="212.88.64.8"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Tele2 GRPS"
+        apn="internet.tele2.dk"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="130.244.196.90"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Tele2 MMS"
+        apn="internet.tele2.dk"
+        mmsc="http://mmsc.tele2.dk/"
+        mmsport="8080"
+        mmsproxy="193.12.40.54"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Telenor Internet"
+        apn="internet"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="02"
+        carrier="Telenor MMS"
+        apn="telenor"
+        mmsc="http://mms.telenor.dk"
+        mmsport="8080"
+        mmsproxy="212.88.64.8"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="06"
+        carrier="3"
+        apn="data.tre.dk"
+        authtype="3"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="06"
+        carrier="3 DK"
+        apn="data.tre.dk"
+        mmsc="http://mms.3.dk"
+        mmsport="8799"
+        mmsproxy="mmsproxy.3.dk"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="238"
+        mnc="06"
+        carrier="3MMS"
+        apn="data.tre.dk"
+        authtype="3"
+        mmsc="http://mms"
+        mmsport="8799"
+        mmsproxy="172.016.001.025"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="06"
+        carrier="Oister"
+        apn="data.dk"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="06"
+        carrier="Oister MMS"
+        apn="data.dk"
+        mmsc="http://mms.oister.dk"
+        mmsport="8799"
+        mmsproxy="mmsproxy.oister.dk"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="10"
+        carrier="M1 Internet GPRS"
+        apn="internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="10"
+        carrier="M1 MMS GPRS"
+        apn="mms"
+        mmsc="http://192.168.241.114:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="10"
+        carrier="M1 WAP GPRS"
+        apn="wap"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="194.182.251.15"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="10"
+        carrier="Telmore MMS"
+        apn="mms"
+        mmsc="http://192.168.241.114:8002"
+        mmsport="8080"
+        mmsproxy="194.182.251.15"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="10"
+        carrier="Telmore WAP"
+        apn="wap"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="194.182.251.15"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="12"
+        carrier="Lycamobile DK"
+        apn="data.lycamobile.dk"
+        password="plus"
+        type="default,supl"
+        user="lmdk"
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Call me Internet"
+        apn="websp"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Call me Internet"
+        apn="websp"
+        authtype="2"
+        mvno_match_data="Call me"
+        mvno_type="spn"
+        type="default,supl"
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Call me MMS"
+        apn="mmssp"
+        authtype="2"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        mvno_match_data="Call me"
+        mvno_type="spn"
+        type="mms"
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="CallMe MMS"
+        apn="mmssp"
+        mmsc="http://mms.telia.dk"
+        mmsport="80"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="DLG Tele"
+        apn="websp"
+        authtype="3"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="DLG Tele MMS"
+        apn="mmssp"
+        authtype="3"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Siminn Internet"
+        apn="websp"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Siminn MMS"
+        apn="mmssp"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Siminn WAP"
+        apn="websp"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="62.44.158.29"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Telia DK"
+        apn="www.internet.mtelia.dk"
+        mvno_match_data="2382010x"
+        mvno_type="imsi"
+        type="default,supl"
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Telia DK MMS"
+        apn="www.mms.mtelia.dk"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        mvno_match_data="2382010x"
+        mvno_type="imsi"
+        type="mms"
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Waoo Mobil"
+        apn="websp"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="20"
+        carrier="Waoo Mobil MMS"
+        apn="mmssp"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="30"
+        carrier="Siminn Internet"
+        apn="websp"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="30"
+        carrier="Siminn MMS"
+        apn="mmssp"
+        mmsc="http://mms.telia.dk"
+        mmsport="8080"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="30"
+        carrier="Siminn WAP"
+        apn="websp"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="62.44.158.29"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="30"
+        carrier="Telia MMS"
+        apn="www.mms.mtelia.dk"
+        mmsc="http://mms.telia.dk"
+        mmsport="80"
+        mmsproxy="193.209.134.131"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="30"
+        carrier="Telia SuifPort"
+        apn="www.internet.mtelia.dk"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="77"
+        carrier="Telenor Internet"
+        apn="Internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="77"
+        carrier="Telenor MMS"
+        apn="telenor"
+        mmsc="http://mms.telenor.dk"
+        mmsport="8080"
+        mmsproxy="212.88.64.8"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
 </apns>
