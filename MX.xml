@@ -197,6 +197,16 @@
     />
     <apn
         mcc="334"
+        mnc="140"
+        carrier="Bait Internet"
+        apn="internet.wm.com"
+        authtype="1"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="334"
         mnc="30"
         carrier="Movistar INTERNET"
         apn="internet.movistar.mx"
